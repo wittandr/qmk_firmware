@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-
+#define MASTER_RIGHT
 /* mouse config */
 #define MOUSEKEY_INTERVAL    20
 #define MOUSEKEY_DELAY       0
@@ -28,3 +28,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Enables This makes it easier for fast typists to use dual-function keys */
 #define PERMISSIVE_HOLD
+//#define WS2812_RGBW
+
+
+#define RGB_MATRIX_LED_COUNT 38
+
+#define ENABLE_RGB_MATRIX_BREATHING
